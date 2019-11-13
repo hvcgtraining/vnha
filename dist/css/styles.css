@@ -103,9 +103,8 @@ body, td, th, input, button {
 
 #search-map .box-search-map {
   position: relative; }
-  #search-map .box-search-map .map .place-card,
-  #search-map .box-search-map .map .place-card-large {
-    display: none !important; }
+  #search-map .box-search-map .map {
+    height: 100vh; }
   #search-map .box-search-map .form-search {
     position: absolute;
     top: 0;
