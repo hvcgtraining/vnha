@@ -382,16 +382,21 @@
 .box-search-custom .img-slide img {
   min-height: 170px !important; }
 
-@media (max-width: 769px) {
+.r-0 {
+  right: 0; }
+
+@media (max-width: 768px) {
   .hide {
     display: block !important; } }
+
+@media (max-width: 992px) {
+  .box-result {
+    display: none; } }
 
 @media (max-width: 768px) {
   .btn-show button {
     display: block; }
   .form-search {
-    display: none; }
-  .box-result {
     display: none; } }
 
 @media (max-width: 460px) {
